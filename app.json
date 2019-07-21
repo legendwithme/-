@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/tools/tools",
+    "pages/contacts/contacts",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1479BE",
+    "navigationBarTitleText": "数字团建",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#1479BE",
+    "color": "#8a8a8a",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+      "list": [{
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "pages/images/tabBar/home1.png",
+        "selectedIconPath": "pages/images/tabBar/home2.png"
+      },{
+        "pagePath": "pages/tools/tools",
+        "text": "工具",
+        "iconPath": "pages/images/tabBar/tools1.png",
+        "selectedIconPath": "pages/images/tabBar/tools2.png"
+      },{
+        "pagePath": "pages/contacts/contacts",
+        "text": "成员",
+        "iconPath": "pages/images/tabBar/contacts1.png",
+        "selectedIconPath": "pages/images/tabBar/contacts2.png"
+      },{
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "pages/images/tabBar/me1.png",
+        "selectedIconPath": "pages/images/tabBar/me2.png"
+      }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

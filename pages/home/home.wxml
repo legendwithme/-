@@ -1,0 +1,28 @@
+<!--pages/home/home.wxml-->
+<view class='homeTitleImages'>   
+  <swiper indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}'>
+    <block wx:for='{{imgUrls}}'wx:key='this'>
+      <swiper-item>
+        <image src='{{item}}'></image>
+      </swiper-item> 
+    </block>
+  </swiper>
+</view>
+
+<view class='head'>最新活动</view>
+
+<view class="activitiesList">
+  <view class="item" bindtap="seeDetail" id="0">
+    <view><image src="../images/homeTitle/1.jpg" style="width:78px;height:60px;"></image></view>
+      <view class="activities">
+        <view class="activitiesTitle">我是活动一</view>
+        <view class="timeMark">
+          <view><image src="/pages/images/homeTitle/time1.png" style="width:18px;height:17px;"></image></view>
+          <view>2019/9/1~10/30</view>
+          <view><image src="/pages/images/homeTitle/time2.png" style="width:23px;height:17px;"></image></view>
+          <view>活动剩余X天</view>
+        </view>
+      </view>
+      <view class="hr"></view>
+  </view>
+</view>

@@ -1,0 +1,37 @@
+.homeTitleImages image{
+  width: 100%;
+  height: 100%;
+}
+.head{
+margin: 20px;
+color: #1479BE;
+font-weight: bold;
+font-size: 14px;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  margin-left:15px;
+  margin-bottom: 5px;
+}
+.activities{
+  margin-left:20px;
+  line-height: 30px;
+}
+.activitiesTitle{
+  font-weight: bold;
+}
+.timeMark{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  color: #8a8a8a;
+}
+.timeMark image{
+  margin-left: 20px;
+}
+.hr{
+  height: 1px;
+  background-color: #cccccc;
+  opacity: 0.5;
+}

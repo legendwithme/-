@@ -1,0 +1,18 @@
+<!--pages/tools/tools.wxml-->
+<view class='tools'>
+  <view class='toolsItem'>
+    <view><image src='../images/toolsItem/活动报名.png' style='width:70px;height:70px;'></image></view>
+    <view>活动报名</view>
+    <view><image src='../images/toolsItem/任务认领.png' style='width:70px;height:70px;'></image></view>
+    <view>任务认领</view>
+    <view><image src='../images/toolsItem/抽签排序.png' style='width:70px;height:70px;'></image></view>
+    <view>抽签排序</view>
+    <view><image src='../images/toolsItem/投票.png' style='width:70px;height:70px;'></image></view>
+    <view>投票</view>
+    <view><image src='../images/toolsItem/签到.png' style='width:70px;height:70px;'></image></view>
+    <view>签到</view>
+    <view><image src='../images/toolsItem/场地预定.png' style='width:70px;height:70px;'></image></view>
+    <view>场地预定</view>
+  </view>
+</view>
+

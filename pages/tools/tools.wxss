@@ -1,0 +1,35 @@
+/* pages/tools/tools.wxss */
+.tools{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.toolsItem{
+  width: 33%;
+  margin: 10px;
+  font-size: 16px;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  font-size: 14px;
+  color: #1479BE;
+}
+.hr{
+  height: 15px;
+  background-color: #1479BE;
+  margin: 10px;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+.hr2{
+  height: 5px;
+  background-color: #1479BE;
+  opacity: 0.2
+}
+.right{
+  position: absolute;
+  right: 10px;
+  color: #8a8a8a;
+}
